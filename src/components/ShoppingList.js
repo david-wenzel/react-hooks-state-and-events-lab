@@ -1,7 +1,13 @@
-import React from "react";
+import React, { useState } from "react";
 import Item from "./Item";
 
 function ShoppingList({ items }) {
+
+  let [selectedCategory, setSelectedCategory] = useState(false)
+
+ 
+
+
   return (
     <div className="ShoppingList">
       <div className="Filter">
